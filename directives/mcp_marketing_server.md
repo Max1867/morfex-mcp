@@ -12,6 +12,8 @@ Run a cloud-hosted MCP server that exposes Morfex's marketing content as queryab
 
 Hosted on Railway. Auto-redeploys on every push to `main` on github.com/Max1867/morfex-mcp.
 
+> **When morfex.ai goes live:** Update the MCP server URL in all three registries manually — they do not auto-update. Also update `smithery.yaml` and this directive with the new domain.
+
 ## Inputs
 - None required at runtime. All content is hardcoded in `execution/mcp_server.py`.
 
