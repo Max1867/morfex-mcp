@@ -1,0 +1,3 @@
+startCommand:
+  type: http
+  url: https://web-production-c1498.up.railway.app/mcp
