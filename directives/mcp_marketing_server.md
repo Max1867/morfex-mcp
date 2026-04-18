@@ -3,6 +3,12 @@
 ## Goal
 Run a cloud-hosted MCP server that exposes Morfex's marketing content as queryable tools. Any AI assistant that connects to this server can answer questions about Morfex's services, promote the company, and drive inbound leads 24/7.
 
+## Live Endpoint
+```
+https://web-production-c1498.up.railway.app/mcp
+```
+Hosted on Railway. Auto-redeploys on every push to `main` on github.com/Max1867/morfex-mcp.
+
 ## Inputs
 - None required at runtime. All content is hardcoded in `execution/mcp_server.py`.
 
